@@ -1,0 +1,35 @@
+@import "settings";
+/*Footer*/
+
+.footer {
+		background-color: $medium-gray !important;
+	td {
+		padding-top: 20px;
+		padding-right: 20px;
+		padding-bottom: 20px;
+		padding-left: 20px;
+	}
+	p {
+		font-size: 12px;
+		line-height:inherit;
+		text-align:center;
+		text-decoration:inherit;
+		color: $white;
+	}
+
+	p a:link {
+		font-size: 12px;
+		line-height:inherit;
+		text-align:center;
+		text-decoration:underline;
+		color: $primary-color;
+	}
+
+	p a:visited {
+		font-size: 12px;
+		line-height:inherit;
+		text-align:center;
+		text-decoration:underline;
+		color: $primary-color;
+	}
+}
