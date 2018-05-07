@@ -120,15 +120,15 @@ function inliner(css) {
 
   var pipe = lazypipe()
     .pipe($.inlineCss, {
-      applyStyleTags: false,
-      removeStyleTags: true,
+      applyStyleTags: true,
+      removeStyleTags: false,
       preserveMediaQueries: true,
       removeLinkTags: false
     })
     .pipe($.replace, '<!-- <style> -->', `<style>${mqCss}</style>`)
     .pipe($.replace, '<link rel="stylesheet" type="text/css" href="css/app.css">', '')
     .pipe($.htmlmin, {
-      collapseWhitespace: true,
+      collapseWhitespace: false,
       minifyCSS: true
     });
 
