@@ -7,3 +7,12 @@ word-break: keep-all;
 -webkit-hyphens: none;
 hyphens: none;
 }
+
+th.callout-inner {
+
+  &.alert {
+    background: scale-color($alert-color, $lightness: $callout-background-fade);
+    border: none !important;
+    color: $black !important;
+  }
+}
