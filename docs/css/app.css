@@ -122,6 +122,9 @@ th.large-2 {
 th.large-2.first {
   padding-left: 16px; }
 
+th.large-2.last {
+  padding-right: 16px; }
+
 th.large-3 {
   width: 129px;
   padding-left: 8px;
@@ -278,6 +281,8 @@ p.text-right {
   .small-float-center {
     margin: 0 auto !important;
     float: none !important;
+    text-align: center !important; }
+  .small-text-center {
     text-align: center !important; } }
 
 img.float-right {
